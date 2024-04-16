@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes</title>
+    <style>
+        body {
+            background-color: #e42222ea;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #e42222ea;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #e42222ea;
+        }
+        .media-container {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            background-color: #e42222ea;
+        }
+        .media-container img, .media-container video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animes</h1>
+    <table>
+        <tr>
+            <td>
+                <div class="media-container">
+                    <a href="imagens/13202-one-piece-one-piece-poster.jpg" target="_blank">
+                        <img src="imagens/13202-one-piece-one-piece-poster.jpg" alt="Imagem 1">
+                    </a>
+                </div>
+            </td>
+            <td>
+                <div class="media-container">
+                    <a href="imagens/7-taizai_teaser.jpg" target="_blank">
+                        <img src="imagens/7-taizai_teaser.jpg" alt="Imagem 2">
+                    </a>
+                </div>
+            </td>
+            <td>
+                <div class="media-container">
+                    <a href="imagens/Naruto.jpg" target="_blank">
+                        <img src="imagens/Naruto.jpg" alt="Imagem 3">
+                    </a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="media-container">
+                    <a href="ONE PIECE Netflix Trailer Anime Version.mp4" target="_blank">
+                        <video controls>
+                            <source src="ONE PIECE Netflix Trailer Anime Version.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </a>
+                </div>
+            </td>
+            <td>
+                <div class="media-container">
+                    <a href="The Seven Deadly Sins Official Trailer Netflix.mp4" target="_blank">
+                        <video controls>
+                            <source src="The Seven Deadly Sins Official Trailer Netflix.mp4" type="video/mp4">
+                        </video>
+                    </a>
+                </div>
+            </td>
+            <td>
+                <div class="media-container">
+                    <a href="Naruto The Complete Series Exclusive Special Edition - Offic.mp4" target="_blank">
+                        <video controls>
+                            <source src="Naruto The Complete Series Exclusive Special Edition - Offic.mp4" type="video/mp4">
+                        </video>
+                    </a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
